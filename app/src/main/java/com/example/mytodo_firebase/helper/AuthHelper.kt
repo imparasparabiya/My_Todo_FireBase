@@ -40,4 +40,9 @@ class AuthHelper {
         }
         return msg
     }
+
+    fun logOut() {
+        auth.signOut()
+//        Firebase.auth.signOut()
+    }
 }

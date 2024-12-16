@@ -20,10 +20,10 @@ class SingUpActivity : AppCompatActivity() {
             finish()
         }
         singUpBinding.signUpButton.setOnClickListener {
-            singUp()
+            setsingUp()
         }
     }
-    private fun singUp() {
+    private fun setsingUp() {
         val email = singUpBinding.emailEdit.text.toString()
         val password = singUpBinding.passwordEdit.text.toString()
         val confirmPassword = singUpBinding.confirmPasswordEdit.text.toString()
